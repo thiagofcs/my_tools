@@ -13,7 +13,6 @@ def calc_amount(pr, mo, ir):
     y = list()
     for month in range(1, mo):
         amount = amount + pr * (1.0 + ir) ** month
-        print('{:2.2f}'.format(amount))
         x.append(month)
         y.append(amount)
     return x, y
