@@ -1,6 +1,6 @@
-from financial import calc_amount
+from financial import compound_interest
 
-x, y = calc_amount(1000, 120, 0.007)
+x, y = compound_interest(1000, 120, 0.007)
 
 for i in y:
     print(i)
